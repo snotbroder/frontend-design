@@ -28,13 +28,16 @@ img {
   font-size: 1.6rem;
 }
 /* Betingelse 3 */
-/* .card:has(img) img {
-  padding: 0;
-} */
-
-.card:has(img):first-child {
+.card:has(img) {
   padding: 0;
 }
+.card:has(img) .content {
+  padding: 1rem;
+}
+
+/* .card:has(img):first-child {
+  padding: 0;
+} */
 @layer reset, cards;
 
 @layer cards {
