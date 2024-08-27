@@ -1,12 +1,62 @@
 :root {
-    --color-heading: #0B0D19;
-    --color-body: #677386;
-    --color-bg-button: #3D7BFA;
-    --color-text-button: #FFF;
+  --color-heading: #0b0d19;
+  --color-body: #677386;
+  --color-bg-button: #3d7bfa;
+  --color-text-button: #fff;
 
-    /* Når du synes, du er færdig, så ændr værdien herunder til '1' for at se dit resultat i browseren */
-    --hide-overlay: 0;
+  /* Når du synes, du er færdig, så ændr værdien herunder til '1' for at se dit resultat i browseren */
+  --hide-overlay: 1;
 }
 
-
 /* Begynd her... */
+img {
+  border-radius: 30px;
+  object-fit: cover;
+  aspect-ratio: 2 / 1;
+  margin: 0.5rem 0.5rem;
+}
+.col3:nth-child(2) {
+  aspect-ratio: 1 / 2;
+}
+h1 {
+  color: var(--color-heading);
+  margin-bottom: 1rem;
+  font-size: 6rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+p {
+  color: var(--color-body);
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button {
+  background-color: var(--color-bg-button);
+  color: var(--color-text-button);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 2rem;
+  border-radius: 50%;
+}
+
+.textboks,
+.billedebox {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+@media (min-width: 900px) {
+  .grid1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .col {
+    display: flex;
+    flex-direction: column;
+  }
+}
