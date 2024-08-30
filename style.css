@@ -38,7 +38,12 @@ body {
   background-color: var(--gray-50);
 
   .content > * + * {
-    margin-block-start: var(--space-m);
+    /* margin-block-start: var(--space-m); */
+    margin-block-start: var(--flow-space, var(--space-m));
+
+    h2 + h3 {
+      --flow-space: var(--space-s);
+    }
   }
   h1,
   h2,
@@ -67,6 +72,8 @@ body {
     text-wrap: balance;
     line-height: 1.5;
   }
+
+  /* margin-block-start: var(--flow-space, var(--space-m)); */
 }
 
 article {
