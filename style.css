@@ -47,21 +47,21 @@ article {
     margin-top: 0.4lh;
   }
 
+  /* Tilføj container regel når width > 500px */
   @container card (width > 500px) {
     main & {
+      /* - Indstil 2 kolonner */
       grid-template-columns: 1fr 1fr;
       :first-child {
         grid-template-columns: auto 1fr 1fr;
       }
-      main & img:nth-child(odd) {
+
+      /* - Sæt `order: 1;` på img på hvert andet card */
+      &:not(:first-child):nth-child(even) img {
         order: 1;
       }
     }
   }
-
-  /* Tilføj container regel når width > 500px */
-  /* - Indstil 2 kolonner */
-  /* - Sæt `order: 1;` på img på hvert andet card */
 }
 
 /* Læg mærke til, at vi bør stadig bruge @media, når det handler om viewporten */
