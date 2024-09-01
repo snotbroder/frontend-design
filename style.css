@@ -23,6 +23,21 @@ section {
   }
 
   figure {
+    display: subgrid;
+    grid-template-columns: subgrid;
+    grid-template-rows: subgrid;
+    order: -1;
+    figcaption {
+      display: subgrid;
+
+      grid-column: 2 / 3;
+    }
+  }
+
+  .content {
+    display: subgrid;
+    grid-template-columns: subgrid;
+    grid-column: 2 span;
   }
 
   img {
