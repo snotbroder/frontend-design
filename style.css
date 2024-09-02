@@ -25,12 +25,10 @@ section {
   figure {
     display: subgrid;
     grid-template-columns: subgrid;
-    grid-template-rows: subgrid;
+    grid-template-rows: 1fr 1fr;
     order: -1;
     figcaption {
-      display: subgrid;
-
-      grid-column: 2 / 3;
+      grid-column: 2;
     }
   }
 
@@ -79,6 +77,8 @@ section {
   }
 
   figure {
+    display: subgrid;
+    grid-row: 2 / 3;
   }
 
   img {
