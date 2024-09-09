@@ -23,7 +23,7 @@
       "twitter": "#"
     },
     "slug": "john-carter",
-    "img": "/src/assets/images/john.jpg"
+    "img": "/public/images/john.jpg"
   },
   {
     "id": 3,
@@ -36,7 +36,7 @@
       "twitter": "#"
     },
     "slug": "daisy-stella",
-    "img": "/src/assets/images/daisy.jpg"
+    "img": "/public/images/daisy.jpg"
   },
   {
     "id": 4,
@@ -49,7 +49,7 @@
       "twitter": "#"
     },
     "slug": "maya-elizabeth",
-    "img": "/src/assets/images/maya.jpg"
+    "img": "/public/images/maya.jpg"
   },
   {
     "id": 5,
@@ -62,7 +62,7 @@
       "twitter": "#"
     },
     "slug": "ryan-jackson",
-    "img": "/src/assets/images/ryan.png"
+    "img": "/public/images/ryan.png"
   },
   {
     "id": 6,
@@ -75,6 +75,6 @@
       "twitter": "#"
     },
     "slug": "lilly-victoria",
-    "img": "/src/assets/images/lilly.jpg"
+    "img": "/public/images/lilly.jpg"
   }
 ]
