@@ -23,7 +23,7 @@
       "twitter": "#"
     },
     "slug": "john-carter",
-    "img": "/public/images/john.jpg"
+    "img": "/public/images/john.png"
   },
   {
     "id": 3,
@@ -36,7 +36,7 @@
       "twitter": "#"
     },
     "slug": "daisy-stella",
-    "img": "/public/images/daisy.jpg"
+    "img": "/public/images/daisy.png"
   },
   {
     "id": 4,
@@ -49,7 +49,7 @@
       "twitter": "#"
     },
     "slug": "maya-elizabeth",
-    "img": "/public/images/maya.jpg"
+    "img": "/public/images/maya.png"
   },
   {
     "id": 5,
@@ -75,6 +75,6 @@
       "twitter": "#"
     },
     "slug": "lilly-victoria",
-    "img": "/public/images/lilly.jpg"
+    "img": "/public/images/lilly.png"
   }
 ]
