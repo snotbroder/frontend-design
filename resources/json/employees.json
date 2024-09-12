@@ -36,7 +36,7 @@
       "twitter": "#"
     },
     "slug": "daisy-stella",
-    "img": "/public/images/daisy.png"
+    "img": "/images/daisy.png"
   },
   {
     "id": 4,
@@ -49,7 +49,7 @@
       "twitter": "#"
     },
     "slug": "maya-elizabeth",
-    "img": "/public/images/maya.png"
+    "img": "/images/maya.png"
   },
   {
     "id": 5,
@@ -62,7 +62,7 @@
       "twitter": "#"
     },
     "slug": "ryan-jackson",
-    "img": "/public/images/ryan.png"
+    "img": "/images/ryan.png"
   },
   {
     "id": 6,
@@ -75,6 +75,6 @@
       "twitter": "#"
     },
     "slug": "lilly-victoria",
-    "img": "/public/images/lilly.png"
+    "img": "/images/lilly.png"
   }
 ]
