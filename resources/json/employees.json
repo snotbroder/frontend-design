@@ -10,7 +10,7 @@
       "twitter": "#"
     },
     "slug": "sarah-jasmine",
-    "img": "/public/images/sarah.png"
+    "img": "/images/sarah.png"
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
       "twitter": "#"
     },
     "slug": "john-carter",
-    "img": "/public/images/john.png"
+    "img": "/images/john.png"
   },
   {
     "id": 3,
